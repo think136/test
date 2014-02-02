@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'uid', 1 => 'timestamp', '_autoinc' => false, '_type' => array ( 'uid' => 'bigint(20)', 'timestamp' => 'bigint(20)', ), );?>

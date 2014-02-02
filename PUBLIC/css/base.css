@@ -1,0 +1,36 @@
+
+
+
+			li{list-style:none}
+			#site{padding:0px; margin:0px}
+			#site #site-body{width:1000px; height:600px; margin:50px auto}
+			//#site #site-body #body-top{height:50px; width:100%; border:1px #00f dashed; }
+			#site #site-body #body-min{height:500px; width:95%; }
+			#site #site-body #body-min #min-left{width:25%; height:100%; float:left}
+			#site #site-body #body-min #min-left #people{width:100%px; height:450px; margin:0 auto; margin-top:20px;overflow:auto; border:0px #f00 solid; border-radius:8px;}
+ 			#site #site-body #body-min #min-left #people #live-menu h3{height: 15px;  padding-top:0px}
+ 			#site #site-body #body-min #min-left #people #live-menu div{height: 300px;}
+ 			#site #site-body #body-min #min-left #people #live-menu li{border: 1px #f00 solid; margin-top:10px}
+			#site #site-body #body-min #min-right{width:75%; height:100%; position:relative; left:250px; }
+			#site #site-body #body-min #min-right #right-bar{height:30px; width: 100%;  }
+			#site #site-body #body-min #min-right #right-bar ul{display:inline;overflow-y:auto;}
+			#site #site-body #body-min #min-right #right-bar ul li{height:21px;border:1px solid #F00;float:left;position:relative; top:0px; right:230px; margin-left:10px; }
+			#site #site-body #body-min #min-right .chat{width:450px; position:absolute; top:10px;}
+			#site #site-body #body-min #min-right .chat .chat-top{height:36px; width:100%;}
+			#site #site-body #body-min #min-right .chat .chat-msg{height:250px; width:100%; overflow:auto;}
+			#site #site-body #body-min #min-right .chat .chat-msg .getmsgbox{border: 2px #f00 solid; text-align:left; border-radius: 15px;margin:5px 10px;padding:5px;font-size:10px}
+			#site #site-body #body-min #min-right .chat .chat-msg .getmsgbox p{font-family:"Microsoft Yahei"; font-size:15px}
+			#site #site-body #body-min #min-right .chat .chat-msg .sendmsgbox{border: 2px #00f solid; text-align:right; border-radius:15px;margin:5px 10px;padding:5px;font-size:10px;}
+			#site #site-body #body-min #min-right .chat .chat-msg .sendmsgbox p{font-family:"Microsoft Yahei"; font-size:15px}
+			#site #site-body #body-min #min-right .chat .chat-tool{height:25px; width:100%;}
+			#site #site-body #body-min #min-right .chat .chat-write{height:100px; width:100%;}
+			#site #site-body #body-min #min-right .chat .chat-write .write-msg{width: 350px; height: 100%; float:left}
+			#site #site-body #body-min #min-right .chat .chat-write .write-msg textarea{height:96%; width:97%;border: 0px; resize:none}
+			#site #site-body #body-min #min-right .chat .chat-write .send{width: 100px; height: 100%; position: relative; left:350px;}
+			#site #site-body #body-min #min-right .chat .chat-write .send span{position:relative; top:-60px; left:33px}
+			
+			
+			
+			
+			
+			

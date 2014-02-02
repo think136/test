@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'user', 2 => 'touser', 3 => 'content', 4 => 'date', 5 => 'ip', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'bigint(20)', 'user' => 'bigint(20)', 'touser' => 'bigint(20)', 'content' => 'char(255)', 'date' => 'char(255)', 'ip' => 'char(255)', ), );?>

@@ -1,0 +1,25 @@
+<div>
+ <table width="100%" border="1" cellspacing="0">
+  <tr >
+    <td class="top">收信人</td>
+    <td class="top">来源</td>
+    <td class="top">消息内容</td>
+    <td class="top">时间</td>
+    <td class="top">地址</td>
+  </tr>
+  
+  <volist name="res" id="res">
+	  <tr>
+	    <td><{$res.user}></td>
+	    <td><{$res.name}></td>
+	    <td><{$res.content}></td>
+	    <td><{$res.date}></td>
+	    <td><{$res.ip}></td>
+	  </tr>
+	 </volist>
+	 
+  <tr>
+    <td colspan="5"><{$page}></td>
+  </tr>
+</table>
+</div>

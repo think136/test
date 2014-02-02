@@ -1,0 +1,88 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+</head>
+
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+		font-family:"微软雅黑,宋体";
+		color:#333333;
+	}
+	
+	#button{
+		
+		border:1px #00C solid;
+		background:#FFF;
+		width:50px;
+		height:20px;
+		margin:5px;
+		
+	}
+	
+	#login{
+		width:400px;
+		border:#666666 1px solid;
+	}
+	
+	img{
+		position:relative;
+		top:5px;
+	}
+	
+	.lginput{
+		margin-top:5px;
+		border:1px #F00 solid;
+	}
+
+</style>
+
+<body>
+<table width="100%" border="0" cellspacing="0">
+  <tr >
+    <td height="50">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="500" height="500" align="center">
+
+    <form action="__APP__/DoLogin/doLogin" method="post" id="login">
+    
+    <table width="400" border="0" cellspacing="0">
+      <tr>
+        <td colspan="2" bgcolor="#666666">&nbsp;</td>
+        </tr>
+      <tr>
+        <td width="35%" align="right">用户名：</td>
+        <td width="65%"><input type="text" name="user" class="lginput" id="user" /></td>
+      </tr>
+      <tr>
+        <td align="right">密　码：</td>
+        <td><input type="password" name="pass" class="lginput"/></td>
+      </tr>
+      <tr>
+        <td align="right">验证码：</td>
+        <td><input type="text" name="check" class="lginput"/>&nbsp;<img style="height: 20px;width: 90px"  src="__APP__/DoLogin/code" onClick="this.src=this.src + '?' + Math.random()"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="submit" id="button" value="登陆"/></td>
+        </tr>
+    </table
+    ></form>
+    
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr >
+    <td height="100">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
